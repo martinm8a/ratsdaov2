@@ -3,10 +3,14 @@
   background: #fff;
 }
 
+.txt {
+  margin: 0 0 0 0;
+}
+
 h1,
 h2 {
   text-align: center;
-  color: linear-gradient(to right, #333399, #ff00cc);
+  color: #3c4043;
 }
 
 .cards__container {
@@ -53,11 +57,6 @@ h2 {
   overflow: hidden;
 }
 
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 2s;
-}
-
 .cards__item__pic-wrap::after {
   content: attr(data-category);
   position: absolute;
@@ -102,6 +101,9 @@ h2 {
 }
 
 @media only screen and (min-width: 1200px) {
+  .cards {
+    padding: 2rem 0 0 0;
+  }
   .content__blog__container {
     width: 84%;
   }
@@ -117,28 +119,66 @@ h2 {
 }
 
 @media only screen and (min-width: 1024px) {
+  .cards {
+    padding: 2rem 0 0 0;
+  }
   .cards__items {
     display: flex;
+  }
+  .content__blog__container {
+    width: 84%;
+  }
+
+  h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
   }
 }
 
 @media only screen and (max-width: 1024px) {
+  .cards {
+    padding: 2rem 0 0 0;
+  }
   .cards__item {
     margin-bottom: 2rem;
+  }
+
+  h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    font-size: 2rem;
+  .cards {
+    padding: 0.5rem;
+    background: #fff;
   }
 
-  .h2bajo {
-    padding-bottom: 4rem;
+  .txt {
+    margin: 5rem 0 0 0;
+  }
+  h1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
+  }
+  h2 {
+    font-size: 0.2rem;
+    text-align: center;
+  }
+  .none {
+    color: transparent;
   }
 }
