@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Findel-travel es un proyecto full responsive, creado con tecnología React JS
+Podes visitar el deploy de este proyecto en el siguiente link: https://findel-travel.web.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
