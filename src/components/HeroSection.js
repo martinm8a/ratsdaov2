@@ -3,13 +3,18 @@ import "../App.css";
 import {Button, Button2} from "./Button";
 import "./HeroSection.css";
 import videos from "../videos/videos";
+import images from "./images/images";
 
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src={videos[1]} autoPlay loop muted />
-      <h1 className="title">Fin del Mundo</h1>
-      <p className="sub">el comienzo de todo</p>
+      {/* <video src={videos[1]} autoPlay loop muted /> */}
+      
+      <h1 className="title">
+
+        Nurive Ferrareto
+      </h1>
+      <p className="sub"></p>
       <div className="hero-btns">
         <Button2
           className="btns"
@@ -24,7 +29,7 @@ function HeroSection() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          RESERVA AHORA
+          Shop
         </Button>
       </div>
     </div>

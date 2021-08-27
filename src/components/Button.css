@@ -4,28 +4,31 @@
 
 .btn {
   padding: 8px 20px;
-  border-radius: 2px;
+  border-radius: 5px;
   outline: none;
   border: none;
   cursor: pointer;
+  backdrop-filter: blur(25px);
 }
 
 .btn--primary {
   background-color: var(--primary);
   color: #242424;
+  backdrop-filter: blur(25px);
   border: 1px solid var(--primary);
 }
 
 .btn--outline {
   background-color: transparent;
-  color: #fff;
+  color:  #252e48;
   padding: 8px 20px;
-  border: 1px solid var(--primary);
+  border: 1px solid #252e48;
   transition: all 0.3s ease-out;
 }
 
 .btn--outline:hover {
-  border: 1px solid transparent;
+  border: 1px solid white;
+  
 }
 
 .btn--medium {
@@ -40,21 +43,41 @@
 
 .btn--large:hover,
 .btn--medium:hover {
-  transition: all 0.3s ease-out;
-  background: #ff512f; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f09819,
-    #ff512f
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f09819,
-    #ff512f
+  transition: 2.5s;
+  background: white; /* fallback for old browsers */
+  background-color: conic-gradient(
+        #fd004c,
+        #fe9000,
+        #fff020,
+        #3edf4b,
+        #3363ff,
+        #b102b7
+  ); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: conic-gradient(
+    #fd004c,
+    #fe9000,
+    #fff020,
+    #3edf4b,
+    #3363ff,
+    #b102b7
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  backdrop-filter: blur(25px);
   color: #fff;
-  transition: 250ms;
+  transition: 1.5s;
+  
+
+  
+}
+/* .btn--large:hover:after
+.btn--medium:hover:after{
+  background-position: 100% 0;
+  
+} */
+@keyframes spin{
+  100%{
+    transform: rotate(360deg)
+  }
 }
 
 .center {

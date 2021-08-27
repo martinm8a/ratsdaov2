@@ -67,7 +67,7 @@ function Footer() {
               <i class="fas fa-globe-americas" />
             </Link>
           </div>
-          <small class="website-rights">FINDEL © 2020</small>
+          <small class="website-rights">FINDEL © 2020 by 8a</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"

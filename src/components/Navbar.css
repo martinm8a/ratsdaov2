@@ -2,15 +2,15 @@
   /*  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   background: -webkit-linear-gradient(
     to right,
-    #0288d1,
-    #333399
+    white,
+    white
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #0288d1,
-    #333399
+    white,
+    white
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #252e48;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -69,7 +69,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fb8c00;
+  border-bottom: 4px solid #0288d1;
   transition: all 0.2s ease-out;
 }
 

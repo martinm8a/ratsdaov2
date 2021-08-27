@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Button} from "./Button";
 import {Link} from "react-router-dom";
 import "./Navbar.css";
+import NuriLogo  from "./iconos/Nuri";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -29,8 +30,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo hover" onClick={closeMobileMenu}>
-            FINDEL
-            <i class="fas fa-globe-americas" />
+          <NuriLogo />
+            {/* <i className="menu-icon" src={Logo[0]} /> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -47,30 +48,30 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Servicios
+                Sobre mi
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/tecnica"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Productos
+                La técnica
               </Link>
             </li>
 
-            <li>
+            <li className="nav-item">
               <Link
-                to="/contact"
-                className="nav-links-mobile"
+                to="/media"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Contacto
+                Media
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Contacto</Button>}
+          {button && <Button buttonStyle="btn--outline">Obras</Button>}
         </div>
       </nav>
     </>
