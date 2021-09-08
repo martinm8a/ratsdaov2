@@ -1,6 +1,6 @@
 import React from "react";
-// import {Button} from "./Button.js";
-// import {Link} from "react-router-dom";
+import {Button} from "../Button.js";
+import {Link} from "react-router-dom";
 import "./ReviewSection.css";
 import CardItem from "../CardItem";
 import images from "../images/images"
@@ -17,6 +17,9 @@ function ShopItem({
   img,
   alt,
   imgStart,
+  payLink,
+  item,
+  textCard
 }) {
   return (
     <>
@@ -46,11 +49,11 @@ function ShopItem({
                 >
                   {description}
                 </p>
-                {/* <Link to="/sign-up">
+                <Link to={{ pathname: payLink }} target="_blank">
                   <Button buttonSize="btn-wide" buttonColor="blue">
                     {buttonLabel}
                   </Button>
-                </Link> */}
+                </Link>
               </div>
             </div>
             <div className="col">
@@ -58,10 +61,9 @@ function ShopItem({
                 <img src={img} alt={alt} className="home__hero-img" />
               </div> */}
               <CardItem
-                src={images[2]}
-                text="Alucinantes colores en el parque natural más austral del mundo"
-                label="Aventura"
-                path="/services"
+                src={img}
+                text={textCard}
+                path={item}
               />
             </div>
           </div>

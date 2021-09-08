@@ -23,7 +23,8 @@ function App() {
           <Route path="/tecnica" component={Tecnica} />
           <Route path="/contact" component={Contact} />
           <Route path="/media" component={Media} />
-          <Route path="/shop" component={ ShopItem} />
+          <Route path="/shop" component={ShopItem} />
+          
         </Switch>
       </Router>
     </>

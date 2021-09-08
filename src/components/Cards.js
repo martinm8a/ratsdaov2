@@ -39,7 +39,7 @@ function Cards() {
                 src={images[3]}
                 text="La mistica experiencia del tren del fin del mundo"
                 label="Épico"
-                path="/products"
+                path="/shop"
               />
               <CardItem
                 src={images[4]}

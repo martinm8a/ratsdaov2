@@ -16,18 +16,25 @@ function HeroSection() {
       </h1>
       <p className="sub"></p>
       <div className="hero-btns">
+      <a
+      href= "https://mpago.la/2qg7LET"
+      target="_blank"
+      rel="noreferrer"
+      className="btn-mobile"
+    > 
         <Button2
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          onClick={console.log("asi es ;)")}
         >
-          VER TRAILER <i className="far fa-play-circle" />
+          VER TRAILER <i className="far fa-play-circle" /> 
         </Button2>
+        </a>
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          
         >
           Shop
         </Button>
