@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import {Button} from "../Button.js";
 import {Link} from "react-router-dom";
 import "./ReviewSection.css";
 import CardItem from "../CardItem";
 import images from "../images/images"
+
 
 
 function ShopItem({
@@ -19,13 +20,17 @@ function ShopItem({
   imgStart,
   payLink,
   item,
-  textCard
+  type,
+  textCard,
 }) {
+  
+
   return (
     <>
+
       <div
         className={lightBg ? "home__hero-section" : "home__hero-section darkBg"}
-      >
+        >
         <div className="container">
           <div
             className="row home__hero-row"
@@ -62,10 +67,11 @@ function ShopItem({
               </div> */}
               <CardItem
                 src={img}
+                label={type}
                 text={textCard}
                 path={item}
               />
-            </div>
+            </div>-
           </div>
         </div>
       </div>

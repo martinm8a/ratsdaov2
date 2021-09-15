@@ -1,5 +1,4 @@
-
-import images from "../images/images";
+import images from "../images/images"
 
 export const homeObjOne = {
   lightBg: false,
@@ -17,6 +16,7 @@ export const homeObjOne = {
   alt: "Vault",
   payLink: "x",
   item: "/item1",
+  type: "metal",
   textCard: "fragancias de latas oxidadas, de historia"
 };
 
@@ -35,6 +35,7 @@ export const homeObjTwo = {
   alt: "Vault",
   payLink: "x",
   item: "/item2",
+  type: "metal",
   textCard: "fragancias de latas oxidadas, de historia"
 };
 
@@ -53,6 +54,7 @@ export const homeObjThree = {
   alt: "Vault",
   payLink: "x",
   item: "/item3",
+  type: "metal",
   textCard: "fragancias de latas oxidadas, de historia"
 };
 
@@ -63,15 +65,16 @@ export const homeObjFour = {
   topLine: "Atravez de sus encajes",
   headline: "La luz de Nurive",
   description:
-    "Ver las obras de Nurive es entrar a un espacio magico en donde los personajes, como duendes o sombras, cuentan su historia y expresan el amor, el juego y la belleza. Destejiendo y tejiendo un encaje de papel, ella va buscando entre resquicios de luz, el alma de las mujeres o el equilibrio perfecto de sus mandalas. El mundo se hace retazo y entra en cada recorte en el alhajero de Nurive, Figura, fondo, un juego en donde corta, saca, deja, en una sola pieza entrelazada con palabras, esos mundos que van apareciendo desde la nada para convertirse en todo. Pequefios universos en vibracién, paracaidistas, ciudades y habitantes, mujer dentro de un hombre, mujer con cabellera de estrellas, repetición y unión desde lo infimo e inicial, hacia el cosmos infinito, para crear un universo de armonia. Cuando Nurive abre esas reticulas aparecen constelaciones, donde e| equilibrio y elequilibrista, se juegan en la pasion de ser.",
+    "Ver las obras de Nurive es entrar a un espacio magico en donde los personajes, como duendes o sombras, cuentan su historia y expresan el amor, el juego y la belleza.",
   description2:  "Stay protected 24/7 anywhere anytime",
   buttonLabel: "Comprar",
   imgStart: "start",
-  img: "images/NuriLogo.webp",
+  img: "images/laguna.webp",
   alt: "Vault",
   payLink: "https://mpago.la/2qg7LET",
   item: "/item4",
-  textCard: "fragancias de latas oxidadas, de historia"
+  type: "metal",
+  textCard: "Arre unicornio metal"
 };
 
 export const homeObj5 = {
@@ -89,6 +92,7 @@ export const homeObj5 = {
   alt: "Vault",
   payLink: "x",
   item: "/item5",
+  type: "papel",
   textCard: "fragancias de latas oxidadas, de historia"
 };
 
@@ -107,5 +111,6 @@ export const homeObj6 = {
   alt: "Vault",
   payLink: "x",
   item: "/item6",
+  type: "papel",
   textCard: "fragancias de latas oxidadas, de historia"
 };
