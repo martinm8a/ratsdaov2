@@ -9,7 +9,9 @@ import Contact from "./components/pages/Contact";
 import Media from "./components/pages/Media";
 import Review from "./components/pages/Review"
 import ShopItem from "./components/pages/ShopItem"
-
+import AllCards from "./components/pages/AllCards"
+/* ItemPages */
+import Item4 from "./components/pages/PagesItems/i4"
 
 function App() {
   return (
@@ -23,7 +25,10 @@ function App() {
           <Route path="/tecnica" component={Tecnica} />
           <Route path="/contact" component={Contact} />
           <Route path="/media" component={Media} />
-          <Route path="/shop" component={ShopItem} />
+          <Route path="/AllProducts" component={AllCards} />
+          <div>
+            <Route path="/Item4" component={Item4} />
+          </div>
           
         </Switch>
       </Router>

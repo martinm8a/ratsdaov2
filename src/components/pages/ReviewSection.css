@@ -7,6 +7,12 @@
   align-items: center;
 }
 
+.center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
 .row {
   display: flex;
   margin-right: -15px;
@@ -17,8 +23,11 @@
 }
 
 .col {
+  align-items: center;
+  align-content: center;
+  text-align: center;
   margin-bottom: 15px;
-  padding: 0 15px 0 15px;
+  padding: 0 50px 0 50px;
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
@@ -52,14 +61,33 @@
 }
 
 .darkBg {
-  background-color: white;
+  background-color: White;
+}
+.metering {
+  margin-bottom: 24px;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #0f0d0d;
+}
+
+.price {
+  margin-bottom: 24px;
+  padding: 10px;
+  font-size: 35px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #118f2c;
 }
 
 .home__hero-subtitle {
   max-width: 440px;
   margin-bottom: 35px;
+  margin-left: 50px;
   font-size: 18px;
   line-height: 24px;
+  text-align: left;
 }
 
 .home__hero-img-wrapper {
@@ -93,5 +121,6 @@ img {
   .col {
     max-width: 100%;
     flex-basis: 100%;
+    padding: 0 15px 0 15px;
   }
 }

@@ -29,10 +29,12 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
+          <div>
           <Link to="/" className="navbar-logo hover" onClick={closeMobileMenu}>
           <NuriLogo />
             {/* <i className="menu-icon" src={Logo[0]} /> */}
           </Link>
+          </div>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>

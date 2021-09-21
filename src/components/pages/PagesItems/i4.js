@@ -1,6 +1,15 @@
 import React from "react";
-import "../../App.css";
+import ShopItem from"../ShopItem"
+import {homeObjFour} from "../Data";
+import "../../HeroSection.css";
 
-export default function Services() {
-  return <h1 className="services">Sobre mi</h1>;
+function Item4() {
+  return (
+    <>
+      <ShopItem {...homeObjFour} />
+    </>
+    
+  );
 }
+
+export default Item4;
