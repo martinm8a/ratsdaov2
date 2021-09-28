@@ -1,6 +1,13 @@
 import React from "react";
-import "../../App.css";
+import ReviewSection from"./ReviewSection"
+import {homeObjFour} from "./Data";
 
-export default function Media() {
-  return <h1 className="media">Mediatica</h1>;
+function Review() {
+  return (
+    <>
+      <ReviewSection {...homeObjFour} />
+    </>
+  );
 }
+
+export default Review;

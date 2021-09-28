@@ -71,15 +71,15 @@ export const homeObjFour = {
   lightBg: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Arre Unicornio",
-  headline: "Metal",
+  topLine: "Pajaros Libres",
+  headline: "Técnica: Calado en papel",
   description:
     "Ver las obras de Nurive es entrar a un espacio magico en donde los personajes, como duendes o sombras, cuentan su historia y expresan el amor, el juego y la belleza.",
   description2:  "Stay protected 24/7 anywhere anytime",
   metering: "Medidas: 40 x 40 cm.",
   buttonLabel: "Comprar",
   imgStart: "start",
-  img: "images/arre.webp",
+  img: "images/freebirds.webp",
   img2: "images/NuriLogo.webp",
   img3: "images/svg-1.svg",
   alt: "Vault",
@@ -87,7 +87,7 @@ export const homeObjFour = {
   item: "/Item4",
   type: "metal",
   textCard: "Arre unicornio metal",
-  price: "$4800"
+  price: "$9800"
 };
 
 export const homeObjFive = {

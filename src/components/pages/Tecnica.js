@@ -1,7 +1,13 @@
 import React from "react";
-import "../../App.css";
-// import "./Tecnica.css";
+import ReviewSection from"./ReviewSection"
+import {homeObjFour} from "./PagesData";
 
-export default function Tecnica() {
-  return <h1 className="tecnica">La técnica</h1>;
+function Review() {
+  return (
+    <>
+      <ReviewSection {...homeObjFour} />
+    </>
+  );
 }
+
+export default Review;

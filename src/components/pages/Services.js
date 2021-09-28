@@ -1,6 +1,13 @@
 import React from "react";
-import "../../App.css";
+import ReviewSection from"./ReviewSection"
+import {homeObjFour} from "./Data";
 
-export default function Services() {
-  return <h1 className="services">Sobre mi</h1>;
+function Review() {
+  return (
+    <>
+      <ReviewSection {...homeObjFour} />
+    </>
+  );
 }
+
+export default Review;
