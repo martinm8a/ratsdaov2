@@ -30,8 +30,9 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <div>
-          <Link to="/" className="navbar-logo hover" onClick={closeMobileMenu}>
-          <NuriLogo />
+          <Link to="/" className="menu-icon" onClick={handleClick} >
+          
+          <NuriLogo className="menu-icon" onClick={handleClick} />
             {/* <i className="menu-icon" src={Logo[0]} /> */}
           </Link>
           </div>

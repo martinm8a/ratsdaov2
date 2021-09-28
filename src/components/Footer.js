@@ -1,30 +1,14 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {Button} from "./Button";
-
+import NuriLogoW from "./iconos/NuriWhite";
 import "./Footer.css";
+import "./Navbar.css";
 
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
-        <p className="footer-subscription-heading">
-          Noticias y ofertas para las temporadas de invierno y verano en tu
-          email
-        </p>
-        <p className="footer-subscription-text">Desuscribite cuando quieras</p>
-        <div className="input-areas">
-          <form>
-            <input
-              type="email"
-              name="email"
-              placeholder="Tu Email"
-              className="footer-input"
-            />
-            <Button buttonStyle="btn--outline">Subscribete</Button>
-          </form>
-        </div>
-      </section>
+      
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
@@ -63,11 +47,10 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              FINDEL
-              <i class="fas fa-globe-americas" />
+              <NuriLogoW />
             </Link>
           </div>
-          <small class="website-rights">FINDEL © 2020 by 8a</small>
+          <small class="website-rights">Nurive Ferrareto © 2020 by 8a</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
@@ -92,14 +75,6 @@ function Footer() {
               aria-label="Youtube"
             >
               <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
             </Link>
             <Link
               class="social-icon-link twitter"

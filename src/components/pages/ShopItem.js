@@ -63,7 +63,7 @@ function ShopItem({
                   </Button>
                 </Link>
                 </div>
-              </div>
+              </div> 
             </div>
             <div className="col">
               {/* <div className="home__hero-img-wrapper">
