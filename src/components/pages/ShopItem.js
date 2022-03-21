@@ -17,8 +17,28 @@ function ShopItem({
   description,
   buttonLabel,
   img,
+  imgDesc,
   img2,
+  img2Desc,
   img3,
+  img3Desc,
+  img4,
+  img4Desc,
+  img5,
+  img5Desc,
+  img6,
+  img6Desc,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
   alt,
   imgStart,
   payLink,
@@ -50,7 +70,7 @@ function ShopItem({
                   {topLine}{" "}
                 </h1>
                 <div className="top-line">{headline}</div>
-                <div className="metering">{metering}</div>
+                <div className="metering">{}</div>
                 
                 <p className={lightTextDesc ? "home__hero-subtitle" :"home__hero-subtitle dark"}>
                   {description}
@@ -75,18 +95,67 @@ function ShopItem({
                 text={textCard}
                 path={item}
               /> */}
-              <Carousel>
+              <Carousel >
               <div>
                     <img src={img} />
-                    <p className="legend">Legend 1</p>
+                    <p className="legend">{imgDesc}</p>
                 </div>
                 <div>
                     <img src={img2} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend">{img2Desc} </p>
                 </div>
                 <div>
                     <img src={img3} />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">{img3Desc} </p>
+                </div>
+                <div>
+                    <img src={img4} />
+                    <p className="legend">{img4Desc}</p>
+                </div>
+                <div>
+                    <img src={img5} />
+                    <p className="legend">{img5Desc}</p>
+                </div><div>
+                    <img src={img6} />
+                    <p className="legend">Member Token</p>
+                </div><div>
+                    <img src={img7} />
+                    <p className="legend">Member Token</p>
+                </div><div>
+                    <img src={img8} />
+                    <p className="legend">Member Token</p>
+                </div><div>
+                    <img src={img9} />
+                    <p className="legend">Member Token</p>
+                </div><div>
+                    <img src={img10} />
+                    <p className="legend">Member Token</p>
+                </div><div>
+                    <img src={img11} />
+                    <p className="legend">Member Token</p>
+                </div><div>
+                    <img src={img12} />
+                    <p className="legend">Member Token</p>
+                </div>
+                <div>
+                    <img src={img13} />
+                    <p className="legend">Member Token</p>
+                </div>
+                <div>
+                    <img src={img14} />
+                    <p className="legend">Member Token</p>
+                </div>
+                <div>
+                    <img src={img15} />
+                    <p className="legend">Member Token</p>
+                </div>
+                <div>
+                    <img src={img16} />
+                    <p className="legend">Member Token</p>
+                </div>
+                <div>
+                    <img src={img17} />
+                    <p className="legend">Member Token</p>
                 </div>
               </Carousel>
             </div>

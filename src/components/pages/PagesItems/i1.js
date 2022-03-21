@@ -1,9 +1,9 @@
 import React from "react";
 import ShopItem from"../ShopItem"
-import {homeObjOne} from "../Data";
+import {homeObjOne} from "../PagesData";
 import "../../HeroSection.css";
 
-function Item4() {
+function Item1() {
   return (
     <>
       <ShopItem {...homeObjOne} />
@@ -12,4 +12,4 @@ function Item4() {
   );
 }
 
-export default Item4;
+export default Item1;

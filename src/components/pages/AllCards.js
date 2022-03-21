@@ -10,9 +10,9 @@ function Cards() {
   return (
     <div className="padre cards">
       <div className="txt cards">
-        <h2 className="none">Descubre este pequeño</h2>
-        <h1> Universo</h1>
-        <h2>Obras unicas, realizadas a mano</h2>
+        <h2 className="none">Descubre el poder de</h2>
+        <h1> Rats Dao</h1>
+        <h2>Los mas valiosos NFT de la red de Cardano</h2>
       </div>
       <div className="cards">
         <div className="cards__container">

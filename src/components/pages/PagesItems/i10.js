@@ -1,6 +1,6 @@
 import React from "react";
 import ShopItem from"../ShopItem"
-import {homeObjTen} from "../Data";
+import {homeObjTen} from "../PagesData";
 import "../../HeroSection.css";
 
 function Item4() {

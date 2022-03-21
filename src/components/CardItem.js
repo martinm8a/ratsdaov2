@@ -1,5 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import "./Cards.css";
+
 
 function CardItem({
   lightBg,
@@ -29,7 +31,7 @@ function CardItem({
             <img
               src={img}
               className="cards__item__img"
-              alt="Travel Picture"
+              alt="NFT image"
             />
           </figure>
           <div className="cards__item__info">

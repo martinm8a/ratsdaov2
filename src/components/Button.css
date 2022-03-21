@@ -4,7 +4,7 @@
 
 .btn {
   padding: 8px 20px;
-  border-radius: 5px;
+  border-radius: 300px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -24,6 +24,7 @@
   padding: 8px 20px;
   border: 1px solid #252e48;
   transition: all 0.3s ease-out;
+  margin: 5px
 }
 
 .btn--outline:hover {
@@ -62,7 +63,7 @@
     #3363ff,
     #b102b7
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  backdrop-filter: blur(25px);
+  /* backdrop-filter: blur(25px); */
   color: #fff;
   transition: 1.5s;
   

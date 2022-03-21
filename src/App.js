@@ -3,13 +3,14 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Home from "./components/pages/Home";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Services from "./components/pages/Services";
-import Tecnica from "./components/pages/Tecnica";
 import Contact from "./components/pages/Contact";
 import Media from "./components/pages/Media";
 import Review from "./components/pages/Review"
 import ShopItem from "./components/pages/ShopItem"
 import AllCards from "./components/pages/AllCards"
+import Paper from "./components/pages/Paper"
+import Acordion from "./components/Acordion"
+
 /* ItemPages */
 import Item1 from "./components/pages/PagesItems/i1"
 import Item2 from "./components/pages/PagesItems/i2"
@@ -30,8 +31,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/Review" component={Review} />
-          <Route path="/services" component={Services} />
-          <Route path="/tecnica" component={Tecnica} />
+          <Route path="/paper" component={Paper} />
+          <Route path="/acordion" component={Acordion} />
           <Route path="/contact" component={Contact} />
           <Route path="/media" component={Media} />
           <Route path="/AllProducts" component={AllCards} />
@@ -47,7 +48,6 @@ function App() {
             <Route path="/Item9" component={Item9} />
             <Route path="/Item10" component={Item10} />
           </div>
-          
         </Switch>
       </Router>
     </>

@@ -2,6 +2,7 @@ import React from "react";
 // import {Button} from "./Button.js";
 // import {Link} from "react-router-dom";
 import "./ReviewSection.css";
+import {useTranslation} from "react-i18next"
 
 function ReviewSection({
   lightBg,
@@ -15,6 +16,8 @@ function ReviewSection({
   alt,
   imgStart,
 }) {
+  const [t, i18n] = useTranslation("data");
+
   return (
     <>
       <div

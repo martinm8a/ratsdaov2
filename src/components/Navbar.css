@@ -1,16 +1,8 @@
 .navbar {
   /*  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  background: -webkit-linear-gradient(
-    to right,
-    #5E8FB3,
-    #43698E
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #5E8FB3,
-    #43698E
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 100px;
+  
+  background-blend-mode: difference;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,14 +10,32 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  transition: all 0.3s ease-out;
+  
+}
+
+.navbar:hover{
+  background: -webkit-linear-gradient(
+    to right,
+    #E49BA1,
+    #e97a85
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #E49BA1,
+    #e97a85
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: all 0.3s ease-out;
+  
 }
 
 .navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 30px;
   max-width: 1500px;
+  
 }
 
 .navbar-logo {
@@ -84,7 +94,10 @@
 .menu-icon {
   display: none;
 }
-
+.menu-icon2 {
+  display: flex;
+  max-width: 60px;
+}
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -93,13 +106,13 @@
   .nav-menu {
     background: -webkit-linear-gradient(
       to right,
-      #ff00cc,
-      #333399
+      #E49BA1,
+      #e97a85
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #ff00cc,
-      #333399
+      #E49BA1,
+      #e97a85
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     flex-direction: column;
@@ -116,13 +129,13 @@
     /*  background-color: #242424; */
     background: -webkit-linear-gradient(
       to right,
-      #ff00cc,
-      #333399
+      #E49BA1,
+      #e97a85
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #ff00cc,
-      #333399
+      #E49BA1,
+      #e97a85
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     left: 0;
     opacity: 1;

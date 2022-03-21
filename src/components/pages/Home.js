@@ -5,14 +5,18 @@ import Footer from "../Footer";
 import HeroSection from "../HeroSection.js";
 import Review from "../pages/Review";
 import ItemPage from "./ItemPage";
+import Paper from "./Paper"
+import Acordion from "../Acordion";
 
 function Home() {
   return (
     <>
       <HeroSection />
-      <Review />
-      <Cards />
+      {/* <Paper />
+      <Acordion/> */}
       <ItemPage />
+      <Cards />
+      {/* <Review /> */}
       
       <Footer />
     </>

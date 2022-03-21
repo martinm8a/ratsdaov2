@@ -1,7 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {Button} from "./Button";
-import NuriLogoW from "./iconos/NuriWhite";
 import "./Footer.css";
 import "./Navbar.css";
 
@@ -12,33 +11,25 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Nosotros</h2>
-            <Link to="/">Conocenos</Link>
-            <Link to="/">Testimonios</Link>
-            <Link to="/">Inversores</Link>
-            <Link to="/">Legales</Link>
+            <h2>The Dao</h2>
+            <Link to="/">The team</Link>
+            <Link to="/">Investors</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Contacto</h2>
-            <Link to="/contact">Contactanos</Link>
-            <Link to="/">Atención al Cliente</Link>
-            <Link to="/">Destinos</Link>
+            <h2>Contact</h2>
+            <Link to="/contact">Contact us</Link>
             <Link to="/">Sponsors</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Videos</h2>
-            <Link to="/">Nuestros Videos</Link>
-            <Link to="/">Embajadores</Link>
-            <Link to="/">Agencia</Link>
-            <Link to="/">Influencer</Link>
+            <Link to="/">Our Videos</Link>
+            <Link to="/">Ambassadors</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Redes</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
+            <h2>Social</h2>
+            <Link to="/">Discord</Link>
             <Link to="/">Twitter</Link>
           </div>
         </div>
@@ -47,10 +38,10 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              <NuriLogoW />
+              <img src={"images/rat.png"} className="menu-icon2" alt="rat icon"/>
             </Link>
           </div>
-          <small class="website-rights">Nurive Ferrareto © 2020 by 8a</small>
+          <small class="website-rights">Rats Dao © 2022 by 8a</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
@@ -68,22 +59,22 @@ function Footer() {
             >
               <i class="fab fa-instagram" />
             </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/"
+            <a
+              class="social-icon-link discord"
+              href="https://discord.com/invite/jwKsgPep"
               target="_blank"
-              aria-label="Youtube"
+              aria-label="Discord"
             >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
+              <i class="fab fa-discord" />
+            </a>
+            <a
               class="social-icon-link twitter"
-              to="/"
+              href="https://twitter.com/RatsDao"
               target="_blank"
-              aria-label="LinkedIn"
+              aria-label="Twitter"
             >
-              <i class="fab fa-linkedin" />
-            </Link>
+              <i class="fab fa-twitter" />
+            </a>
           </div>
         </div>
       </section>
