@@ -1,5 +1,4 @@
-# Findel-travel es un proyecto full responsive, creado con tecnología React JS
-Podes visitar el deploy de este proyecto en el siguiente link: https://findel-travel.web.app/
+# RATS DAO v2 test
 
 
 ## Available Scripts
